@@ -8,7 +8,7 @@
   justify-content: center;
   height: 100vh;
   position: relative;
-  background-image: url("/cover-background.png");
+  background-image: url("./cover-background.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
