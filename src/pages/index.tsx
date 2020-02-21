@@ -4,9 +4,13 @@ import { Cover } from "../components/Cover"
 // import { Cfp } from "../components/Cfp"
 import { Footer } from "../components/Footer"
 // import Speakers from '../components/speakers'
+import { Helmet } from "react-helmet"
 
 export default () => (
   <div className={styles.app}>
+    <Helmet>
+      <title>Scala Italy 2020</title>
+    </Helmet>
     <Cover />
     {/* <Cfp /> */}
     {/* <Speakers
