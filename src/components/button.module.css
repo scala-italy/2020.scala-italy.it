@@ -1,0 +1,20 @@
+@import "../styles/variables.css";
+
+.button {
+  width: 251px;
+  color: var(--primaryTextColor);
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  height: 53px;
+  border: 3px solid var(--neonRed);
+  background: transparent;
+  color: var(--neonRed);
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background: var(--neonRed);
+  color: white;
+  cursor: pointer;
+}

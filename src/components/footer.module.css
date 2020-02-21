@@ -1,0 +1,11 @@
+@import "../styles/variables.css";
+
+.footer {
+  display: flex;
+  flex: 1 0 auto;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--navyTwo);
+  color: var(--silver);
+}
