@@ -10,6 +10,10 @@ export default () => (
   <div className={styles.app}>
     <Helmet>
       <title>Scala Italy 2020</title>
+      <meta
+        name="Description"
+        content="Scala Italy 2020 - The Italian conference on Scala"
+      />
     </Helmet>
     <Cover />
     {/* <Cfp /> */}
